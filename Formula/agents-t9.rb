@@ -2,27 +2,27 @@
 class AgentsT9 < Formula
   desc "Word completion for terminals and AI coding agents"
   homepage "https://github.com/elcodabra/agents-t9"
-  version "0.11.0"
+  version "0.11.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/elcodabra/agents-t9/releases/download/v0.11.0/agents-t9-darwin-arm64"
-      sha256 "6ed03c123d65a962437b2301fa0f07f6f1f1ef769048db247cb95f894d0a03d6"
+      url "https://github.com/elcodabra/agents-t9/releases/download/v0.11.1/agents-t9-darwin-arm64"
+      sha256 "bad50d1401047272b9f02a3abbf124c352c83cee88b76fb919618b575744a712"
     end
     on_intel do
-      url "https://github.com/elcodabra/agents-t9/releases/download/v0.11.0/agents-t9-darwin-x64"
-      sha256 "0ae388f6c863611f48b18b520f25882d8d3728807e60a2734e78fab21c3d2f05"
+      url "https://github.com/elcodabra/agents-t9/releases/download/v0.11.1/agents-t9-darwin-x64"
+      sha256 "7d87e7e36c79aac286f698cd7a5323c554a913e902d645c0b3b6d51c726b4c01"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/elcodabra/agents-t9/releases/download/v0.11.0/agents-t9-linux-arm64"
-      sha256 "957f8de11b25c0d8ec1526a911dc08834398c5d2c64128467954efba24c2b9af"
+      url "https://github.com/elcodabra/agents-t9/releases/download/v0.11.1/agents-t9-linux-arm64"
+      sha256 "bfb435bff97f27f5df6ad55a90714f30412515481f8ab712d4d041653843910c"
     end
     on_intel do
-      url "https://github.com/elcodabra/agents-t9/releases/download/v0.11.0/agents-t9-linux-x64"
-      sha256 "897edea215b2471d0ff48c7ad6d53556b437404f6c1431cbf5ec71f8c80f8edb"
+      url "https://github.com/elcodabra/agents-t9/releases/download/v0.11.1/agents-t9-linux-x64"
+      sha256 "5b313365cc1cb265d6550ea8184e0e31f2fc5ef9e4a686f2a213af9b4def0f3e"
     end
   end
 
